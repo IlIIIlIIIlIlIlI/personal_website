@@ -1,9 +1,9 @@
-import scssObj from './_App.scss';
+import Introduction from './Introduction';
 
 function App() {
   return (
-    <div className='App'>
-      <div className={`${scssObj.baseClass}__container`}>Suraj</div>
+    <div>
+      <Introduction />
     </div>
   );
 }
