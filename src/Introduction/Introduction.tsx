@@ -18,7 +18,7 @@ function Introduction() {
             Full Stack Developer
           </span>{' '}
           adept at crafting innovative solutions. Enjoys building projects from
-          conception to implementation, delivering seamless user experiences.
+          conception to implementation.
         </div>
       </div>
     </div>
