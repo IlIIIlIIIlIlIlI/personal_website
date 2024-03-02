@@ -6,7 +6,118 @@ $base-class: introduction;
 
 .#{$base-class} {
   &__container {
-    margin-top: 15vh;
-    font-family: 'Nunito Sans', -apple-system, system-ui, sans-serif;
+    margin-top: 10vh;
+    font-family: 'eurostile', sans-serif;
+  }
+
+  &__greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__hello {
+    font-size: 40px;
+    font-weight: 700;
+    color: #141c3a;
+  }
+
+  &__name {
+    font-size: 90px;
+    font-weight: 700;
+    color: #141c3a;
+  }
+
+  &__subname {
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #141c3a;
+  }
+
+  &__intro {
+    margin-top: 40px;
+    max-width: 768px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #666666;
+    text-align: justify;
+  }
+
+  &__proffession {
+    color: #141c3a;
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    &__container {
+      margin-top: 5vh;
+      font-family: 'eurostile', sans-serif;
+    }
+
+    &__intro {
+      margin-top: 40px;
+      max-width: 600px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #666666;
+      text-align: justify;
+    }
+
+    &__proffession {
+      color: #141c3a;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    &__container {
+      margin-top: 5vh;
+      font-family: 'eurostile', sans-serif;
+    }
+
+    &__greeting {
+      display: flex;
+      flex-direction: column;
+      align-items: first baseline;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    &__hello {
+      font-size: 30px;
+      font-weight: 700;
+      color: #141c3a;
+    }
+
+    &__name {
+      font-size: 80px;
+      font-weight: 700;
+      color: #141c3a;
+    }
+
+    &__subname {
+      margin-top: -10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #141c3a;
+    }
+
+    &__intro {
+      margin-top: 40px;
+      max-width: 768px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #666666;
+      text-align: justify;
+    }
+
+    &__proffession {
+      color: #141c3a;
+      font-size: 20px;
+      font-weight: 700;
+    }
   }
 }

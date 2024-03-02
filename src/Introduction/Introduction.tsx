@@ -4,8 +4,23 @@ import scssObj from './_Introduction.scss';
 function Introduction() {
   return (
     <div className={`${scssObj.baseClass}__container`}>
-      <div>Hello there,</div>
-      <div>I'm Suraj,</div>
+      <div className={`${scssObj.baseClass}__greeting`}>
+        <div className={`${scssObj.baseClass}__hello`}>Hello there,</div>
+
+        <div className={`${scssObj.baseClass}__intro-name`}>
+          <div className={`${scssObj.baseClass}__name`}>I'm Suraj,</div>
+          <div className={`${scssObj.baseClass}__subname`}>Tech Devotee</div>
+        </div>
+
+        <div className={`${scssObj.baseClass}__intro`}>
+          Passionate{' '}
+          <span className={`${scssObj.baseClass}__proffession`}>
+            Full Stack Developer
+          </span>{' '}
+          adept at crafting innovative solutions. Enjoys building projects from
+          conception to implementation, delivering seamless user experiences.
+        </div>
+      </div>
     </div>
   );
 }
