@@ -20,6 +20,12 @@ function Introduction() {
           adept at crafting innovative solutions. Enjoys building projects from
           conception to implementation.
         </div>
+        <div className={`${scssObj.baseClass}__background-image`}>
+          <img
+            src={require('../assets/desktop_background.png')}
+            alt='Alternative Text'
+          />
+        </div>
       </div>
     </div>
   );

@@ -50,6 +50,12 @@ $base-class: introduction;
     font-weight: 700;
   }
 
+  &__background-image {
+    position: relative;
+    bottom: 70px;
+    z-index: -1000;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__container {
       margin-top: 5vh;
@@ -69,6 +75,12 @@ $base-class: introduction;
       color: #141c3a;
       font-size: 20px;
       font-weight: 700;
+    }
+
+    &__background-image {
+      position: relative;
+      bottom: 90px;
+      z-index: -1000;
     }
   }
 
@@ -118,6 +130,19 @@ $base-class: introduction;
       color: #141c3a;
       font-size: 20px;
       font-weight: 700;
+    }
+
+    &__background-image {
+      position: relative;
+      bottom: 50px;
+      z-index: -1000;
+
+      display: flex;
+      justify-content: center;
+      img {
+        width: calc(100% - 40px);
+        object-fit: contain;
+      }
     }
   }
 }
