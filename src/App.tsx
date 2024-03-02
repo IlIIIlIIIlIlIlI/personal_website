@@ -1,7 +1,9 @@
+import scssObj from './_App.scss';
+
 function App() {
   return (
     <div className='App'>
-      <div>Suraj</div>
+      <div className={`${scssObj.baseClass}__container`}>Suraj</div>
     </div>
   );
 }
