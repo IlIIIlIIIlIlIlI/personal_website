@@ -6,6 +6,7 @@ $base-class: introduction;
 
 .#{$base-class} {
   &__container {
-    color: blue;
+    margin-top: 15vh;
+    font-family: 'Nunito Sans', -apple-system, system-ui, sans-serif;
   }
 }
