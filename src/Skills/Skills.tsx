@@ -17,6 +17,11 @@ function Skills() {
               Front End
             </div>
           </div>
+
+          <div className={`${scssObj.baseClass}__intro-skill`}>
+            Skillfully harnessing front-end technologies to craft efficient,
+            responsive solutions
+          </div>
         </div>
 
         <div className={`${scssObj.baseClass}__parts`}>
@@ -25,6 +30,11 @@ function Skills() {
               <Engineering className={`${scssObj.baseClass}__icons`} />
             </div>
             <div className={`${scssObj.baseClass}__frontal-name`}>Back End</div>
+          </div>
+
+          <div className={`${scssObj.baseClass}__intro-skill`}>
+            Proficient in back-end processes to ensure scalable and secure
+            functionality within web applications.
           </div>
         </div>
 
@@ -36,6 +46,11 @@ function Skills() {
             <div className={`${scssObj.baseClass}__frontal-name`}>
               Data Base
             </div>
+          </div>
+
+          <div className={`${scssObj.baseClass}__intro-skill`}>
+            Efficiently administering databases, adept at optimizing data
+            storage for seamless application performance.
           </div>
         </div>
       </div>

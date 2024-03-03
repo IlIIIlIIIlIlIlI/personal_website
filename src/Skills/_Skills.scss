@@ -17,6 +17,7 @@ $base-class: skills;
 
   &__main {
     display: flex;
+    align-items: baseline;
     background-color: #f5f5f5;
     border-radius: 10px;
     border: 1px solid #e0e0e0;
@@ -63,6 +64,13 @@ $base-class: skills;
     color: #141c3a;
     font-weight: 800;
     font-size: 18px;
+  }
+
+  &__intro-skill {
+    font-size: 16px;
+    color: #141c3a;
+    margin: 10px;
+    text-align: center;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -124,6 +132,13 @@ $base-class: skills;
 
       margin-left: 10px;
     }
+
+    &__intro-skill {
+      font-size: 16px;
+      color: #141c3a;
+      margin: 10px;
+      text-align: center;
+    }
   }
 
   @media only screen and (max-width: 480px) {
@@ -184,6 +199,13 @@ $base-class: skills;
       font-size: 18px;
 
       margin-left: 10px;
+    }
+
+    &__intro-skill {
+      font-size: 16px;
+      color: #141c3a;
+      margin: 10px;
+      text-align: justify;
     }
   }
 }
