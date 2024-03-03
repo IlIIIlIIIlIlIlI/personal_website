@@ -29,8 +29,14 @@ function Skills() {
               <Chips label='React.JS' />
               <Chips label='Redux' />
               <Chips label='JavaScript' />
+              <Chips label='Redux-Saga' />
+              <Chips label='Axios' />
               <Chips label='Material-UI' />
+              <Chips label='Formik' />
+              <Chips label='React-Router' />
+              <Chips label='TypeScript' />
               <Chips label='HTML' />
+              <Chips label='SCSS' />
               <Chips label='CSS' />
             </div>
           </div>
@@ -47,6 +53,19 @@ function Skills() {
           <div className={`${scssObj.baseClass}__intro-skill`}>
             Proficient in back-end processes to ensure scalable and secure
             functionality within web applications.
+          </div>
+
+          <div className={`${scssObj.baseClass}__tech-header`}>
+            <div className={`${scssObj.baseClass}__tech-bricks`}>
+              <Chips label='Spring-Boot' />
+              <Chips label='Java' />
+              <Chips label='Hibernate' />
+              <Chips label='JPA' />
+              <Chips label='JDBC' />
+              <Chips label='Spring-Boot Web MVC' />
+              <Chips label='ThymeLeaf Template Engine' />
+              <Chips label='Git' />
+            </div>
           </div>
         </div>
 
