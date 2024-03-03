@@ -3,6 +3,7 @@ import scssObj from './_Skills.scss';
 import PhonelinkIcon from '@mui/icons-material/Phonelink';
 import Engineering from '@mui/icons-material/Engineering';
 import Insights from '@mui/icons-material/Insights';
+import Chips from '../Chip';
 
 function Skills() {
   return (
@@ -21,6 +22,17 @@ function Skills() {
           <div className={`${scssObj.baseClass}__intro-skill`}>
             Skillfully harnessing front-end technologies to craft efficient,
             responsive solutions
+          </div>
+
+          <div className={`${scssObj.baseClass}__tech-header`}>
+            <div className={`${scssObj.baseClass}__tech-bricks`}>
+              <Chips label='React.JS' />
+              <Chips label='Redux' />
+              <Chips label='JavaScript' />
+              <Chips label='Material-UI' />
+              <Chips label='HTML' />
+              <Chips label='CSS' />
+            </div>
           </div>
         </div>
 

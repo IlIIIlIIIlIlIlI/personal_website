@@ -73,6 +73,15 @@ $base-class: skills;
     text-align: center;
   }
 
+  &__tech-header {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  &__tech-bricks {
+    margin: 0px 10px 10px 10px;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__container {
       font-family: 'eurostile', sans-serif;
@@ -138,6 +147,11 @@ $base-class: skills;
       color: #141c3a;
       margin: 10px;
       text-align: center;
+    }
+
+    &__tech-header {
+      margin-top: 10px;
+      width: 100%;
     }
   }
 
@@ -206,6 +220,11 @@ $base-class: skills;
       color: #141c3a;
       margin: 10px;
       text-align: justify;
+    }
+
+    &__tech-header {
+      margin-top: 10px;
+      width: 100%;
     }
   }
 }
