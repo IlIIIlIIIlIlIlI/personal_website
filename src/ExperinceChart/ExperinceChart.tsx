@@ -7,115 +7,64 @@ function ExperinceChart() {
   const data: ApexOptions = {
     series: [
       {
-        name: 'Bob',
+        name: 'Aether Enterprise Applications LLP',
         data: [
           {
-            x: 'Design',
-            y: [
-              new Date('2019-03-05').getTime(),
-              new Date('2019-03-08').getTime(),
-            ],
-          },
-          {
-            x: 'Code',
-            y: [
-              new Date('2019-03-02').getTime(),
-              new Date('2019-03-05').getTime(),
-            ],
-          },
-          {
-            x: 'Code',
-            y: [
-              new Date('2019-03-05').getTime(),
-              new Date('2019-03-07').getTime(),
-            ],
-          },
-          {
-            x: 'Test',
-            y: [
-              new Date('2019-03-03').getTime(),
-              new Date('2019-03-09').getTime(),
-            ],
-          },
-          {
-            x: 'Test',
-            y: [
-              new Date('2019-03-08').getTime(),
-              new Date('2019-03-11').getTime(),
-            ],
-          },
-          {
-            x: 'Validation',
-            y: [
-              new Date('2019-03-11').getTime(),
-              new Date('2019-03-16').getTime(),
-            ],
-          },
-          {
-            x: 'Design',
-            y: [
-              new Date('2019-03-01').getTime(),
-              new Date('2019-03-03').getTime(),
-            ],
+            x: 'Full Stack Software Developer',
+            y: [new Date('2021-11-15').getTime(), new Date().getTime()],
+            fillColor: '#5F44FF',
           },
         ],
       },
       {
-        name: 'Joe',
+        name: 'Senior Analyst',
         data: [
           {
-            x: 'Design',
+            x: 'eClerx Services Limited',
             y: [
-              new Date('2019-03-02').getTime(),
-              new Date('2019-03-05').getTime(),
+              new Date('2020-11-10').getTime(),
+              new Date('2021-11-11').getTime(),
             ],
-          },
-          {
-            x: 'Test',
-            y: [
-              new Date('2019-03-06').getTime(),
-              new Date('2019-03-16').getTime(),
-            ],
-          },
-          {
-            x: 'Code',
-            y: [
-              new Date('2019-03-03').getTime(),
-              new Date('2019-03-07').getTime(),
-            ],
-          },
-          {
-            x: 'Deployment',
-            y: [
-              new Date('2019-03-20').getTime(),
-              new Date('2019-03-22').getTime(),
-            ],
-          },
-          {
-            x: 'Design',
-            y: [
-              new Date('2019-03-10').getTime(),
-              new Date('2019-03-16').getTime(),
-            ],
+            fillColor: '#4133FF',
           },
         ],
       },
       {
-        name: 'Dan',
+        name: 'B.Tech from VJTI, Mumbai',
         data: [
           {
-            x: 'Code',
+            x: 'Electronics and Telecommunications Engineering',
             y: [
-              new Date('2019-03-10').getTime(),
-              new Date('2019-03-17').getTime(),
+              new Date('2016-08-10').getTime(),
+              new Date('2020-09-29').getTime(),
             ],
+            fillColor: '#665AFF',
           },
+        ],
+      },
+      {
+        name: 'HSC (12th) Science',
+        data: [
           {
-            x: 'Validation',
+            x: '92.46%',
             y: [
-              new Date('2019-03-05').getTime(),
-              new Date('2019-03-09').getTime(),
+              new Date('2015-06-15').getTime(),
+              new Date('2016-06-15').getTime(),
             ],
+            fillColor: '#8B81FF',
+          },
+        ],
+      },
+      {
+        name: 'SCC (10th)',
+        data: [
+          {
+            x: '94.80%',
+            y: [
+              new Date('2013-06-15').getTime(),
+              new Date('2014-06-15').getTime(),
+            ],
+            fillColor: '#9C94FF',
           },
         ],
       },
