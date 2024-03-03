@@ -13,6 +13,7 @@ function ExperinceChart() {
             x: 'Full Stack Software Developer',
             y: [new Date('2021-11-15').getTime(), new Date().getTime()],
             fillColor: '#5F44FF',
+            meta: { suraj: 'sdsd' },
           },
         ],
       },
@@ -91,8 +92,11 @@ function ExperinceChart() {
     },
     dataLabels: {
       enabled: true,
-      style: {
-        colors: ['#f3f4f5', '#fff'],
+      formatter: (val, opts) => {
+        const dataIndex = opts.seriesIndex;
+        const label = opts.w.config.series[dataIndex].data[0].meta;
+
+        return 'suraj';
       },
     },
     xaxis: {
@@ -103,8 +107,7 @@ function ExperinceChart() {
     },
     grid: {
       row: {
-        colors: ['#f3f4f5', '#fff'],
-        opacity: 1,
+        colors: ['#F5F5F5', '#F5FFF5'],
       },
     },
   };
