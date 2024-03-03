@@ -83,6 +83,16 @@ function Skills() {
             Efficiently administering databases, adept at optimizing data
             storage for seamless application performance.
           </div>
+
+          <div className={`${scssObj.baseClass}__tech-header`}>
+            <div className={`${scssObj.baseClass}__tech-bricks`}>
+              <Chips label='SQL' />
+              <Chips label='Relational Database' />
+              <Chips label='PostgreSQL' />
+              <Chips label='PGAdmin' />
+              <Chips label='Scalable DB Model' />
+            </div>
+          </div>
         </div>
       </div>
     </div>
