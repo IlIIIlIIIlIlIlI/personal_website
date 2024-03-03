@@ -82,6 +82,16 @@ $base-class: skills;
     margin: 0px 10px 10px 10px;
   }
 
+  &__journey {
+    font-family: 'eurostile', sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #141c3a;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__container {
       font-family: 'eurostile', sans-serif;
@@ -152,6 +162,16 @@ $base-class: skills;
     &__tech-header {
       margin-top: 10px;
       width: 100%;
+    }
+
+    &__journey {
+      font-family: 'eurostile', sans-serif;
+      width: 100%;
+      text-align: center;
+      color: #141c3a;
+      font-weight: 700;
+      font-size: 25px;
+      margin-top: 50px;
     }
   }
 
@@ -225,6 +245,16 @@ $base-class: skills;
     &__tech-header {
       margin-top: 10px;
       width: 100%;
+    }
+
+    &__journey {
+      font-family: 'eurostile', sans-serif;
+      width: 100%;
+      text-align: center;
+      color: #141c3a;
+      font-weight: 700;
+      font-size: 25px;
+      margin-top: 50px;
     }
   }
 }
