@@ -1,0 +1,11 @@
+$base-class: experience-dropdown;
+
+:export {
+  baseClass: $base-class;
+}
+
+.#{$base-class} {
+  &__container {
+    font-family: 'eurostile', sans-serif;
+  }
+}
