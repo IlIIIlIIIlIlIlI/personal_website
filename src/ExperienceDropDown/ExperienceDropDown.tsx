@@ -52,15 +52,15 @@ function ExperienceDropDown() {
 
               <div className={`${scssObj.baseClass}__content-container`}>
                 <div className={`${scssObj.baseClass}__designation`}>
-                  Full Stack Software Developer
+                  Senior Analyst
                 </div>
 
                 <div className={`${scssObj.baseClass}__company`}>
-                  Aether Enterprise Applications LLP
+                  eClerx Services Limited
                 </div>
 
                 <div className={`${scssObj.baseClass}__duration`}>
-                  Nov 2021 - Present
+                  Nov 2020 - Nov 2021
                 </div>
               </div>
             </div>
