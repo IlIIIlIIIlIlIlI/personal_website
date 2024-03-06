@@ -57,9 +57,49 @@ $base-class: experience-dropdown;
     color: #141c3a;
   }
 
+  &__journey {
+    font-family: 'eurostile', sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #141c3a;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+  }
+
+  &__exp {
+    font-family: 'eurostile', sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #808080;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__accordian-container {
       width: calc(100% - 40px);
+    }
+
+    &__journey {
+      font-family: 'eurostile', sans-serif;
+      width: 100%;
+      text-align: center;
+      color: #141c3a;
+      font-weight: 700;
+      font-size: 25px;
+      margin-top: 50px;
+    }
+
+    &__exp {
+      font-family: 'eurostile', sans-serif;
+      width: 100%;
+      text-align: center;
+      color: #141c3a;
+      font-weight: 700;
+      font-size: 20px;
+      margin-top: 10px;
     }
   }
 
@@ -86,6 +126,26 @@ $base-class: experience-dropdown;
     &__duration {
       font-size: 14px;
       color: #141c3a;
+    }
+
+    &__journey {
+      font-family: 'eurostile', sans-serif;
+      width: 100%;
+      text-align: center;
+      color: #141c3a;
+      font-weight: 700;
+      font-size: 25px;
+      margin-top: 50px;
+    }
+
+    &__exp {
+      font-family: 'eurostile', sans-serif;
+      width: 100%;
+      text-align: center;
+      color: #141c3a;
+      font-weight: 700;
+      font-size: 20px;
+      margin-top: 10px;
     }
   }
 }

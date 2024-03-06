@@ -6,18 +6,6 @@ import Insights from '@mui/icons-material/Insights';
 import Chips from '../Chip';
 
 function Skills() {
-  const jobStartDate = new Date(2020, 10, 10).getTime();
-  const today = new Date().getTime();
-  const totalExperienceInMS = today - jobStartDate;
-
-  const totalExperience = Number(
-    (totalExperienceInMS / (365 * 24 * 60 * 60 * 1000)).toFixed(2)
-  );
-
-  const roundedOffExperince = Number(
-    (Math.round(totalExperience * 10) / 10).toFixed(1)
-  );
-
   return (
     <div>
       <div className={`${scssObj.baseClass}__container`}>
@@ -110,11 +98,6 @@ function Skills() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className={`${scssObj.baseClass}__journey`}>Journey so far</div>
-      <div className={`${scssObj.baseClass}__exp`}>
-        {roundedOffExperince}+ years of experince
       </div>
     </div>
   );
