@@ -8,7 +8,7 @@ function App() {
     <div>
       <Introduction />
       <Skills />
-      <ExperinceChart />
+      {/* <ExperinceChart /> */}
       <ExperienceDropDown />
     </div>
   );

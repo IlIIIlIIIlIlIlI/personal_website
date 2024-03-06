@@ -6,6 +6,75 @@ $base-class: experience-dropdown;
 
 .#{$base-class} {
   &__container {
+    margin-top: 40px;
     font-family: 'eurostile', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__accordian-container {
+    width: 768px;
+
+    .MuiButtonBase-root {
+      background-color: #f5f5f5;
+    }
+  }
+
+  &__header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__content-container {
+    margin-left: 20px;
+  }
+
+  &__designation {
+    color: #141c3a;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  &__company {
+    font-size: 16px;
+    color: #141c3a;
+  }
+
+  &__duration {
+    font-size: 16px;
+    color: #141c3a;
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    &__accordian-container {
+      width: calc(100% - 40px);
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    &__accordian-container {
+      width: calc(100% - 40px);
+    }
+
+    &__content-container {
+      margin-left: 10px;
+    }
+
+    &__designation {
+      color: #141c3a;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    &__company {
+      font-size: 15px;
+      color: #141c3a;
+    }
+
+    &__duration {
+      font-size: 14px;
+      color: #141c3a;
+    }
   }
 }
