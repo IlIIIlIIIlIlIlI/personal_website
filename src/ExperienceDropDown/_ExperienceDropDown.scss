@@ -22,6 +22,14 @@ $base-class: experience-dropdown;
       border-style: solid;
       border-color: #d9d8d8;
     }
+
+    div[class*='MuiPaper-root-MuiAccordion-root'] {
+      margin: 0px !important;
+    }
+
+    div[class*='MuiAccordionSummary-content'] {
+      margin: 12px 0px;
+    }
   }
 
   &__header-container {
