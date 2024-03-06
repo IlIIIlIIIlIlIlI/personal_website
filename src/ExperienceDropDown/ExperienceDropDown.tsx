@@ -1,11 +1,12 @@
 import React from 'react';
 import scssObj from './_ExperienceDropDown.scss';
 import scssSkillsObj from '../Skills/_Skills.scss';
-import PhonelinkIcon from '@mui/icons-material/Phonelink';
+import DashboardIcon from '@mui/icons-material/Dashboard';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import DevicesOtherIcon from '@mui/icons-material/DevicesOther';
 
 function ExperienceDropDown() {
   const jobStartDate = new Date(2020, 10, 10).getTime();
@@ -33,7 +34,7 @@ function ExperienceDropDown() {
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               <div className={`${scssObj.baseClass}__header-container`}>
                 <div className={`${scssSkillsObj.baseClass}__icon-container`}>
-                  <PhonelinkIcon
+                  <DevicesOtherIcon
                     className={`${scssSkillsObj.baseClass}__icons`}
                   />
                 </div>
@@ -64,7 +65,7 @@ function ExperienceDropDown() {
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               <div className={`${scssObj.baseClass}__header-container`}>
                 <div className={`${scssSkillsObj.baseClass}__icon-container`}>
-                  <PhonelinkIcon
+                  <DashboardIcon
                     className={`${scssSkillsObj.baseClass}__icons`}
                   />
                 </div>
