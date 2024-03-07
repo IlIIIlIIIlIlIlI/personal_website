@@ -60,6 +60,59 @@ function ExperienceDropDown() {
                 inactivity for banking applications specialized for accounting
                 of Law firms.
               </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Researched and selected the finest React package for data
+                visualization, then implemented the whole data visualization
+                application for law firms' accounting and cash flow.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Upgraded the bank's whole front-end stack from React 16 to React
+                18
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Created a function that would generate a Digital Balance Sheet
+                based on the Transactional Activity of law firms.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Built a complete user flow for law firms' Official Cheque
+                dashboard and Official Cheque creation in react framework.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Created a feature that allows users to manually add Accounts and
+                import Transactions into those accounts using a CSV file.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Created a feature that allows users to upload cheque images for
+                transactions, send those images to the back end for storage, and
+                retrieve those cheque images.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Created a feature for Digital Invoicing and Billing that allows
+                law firms to create bills for their services.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Used the Thymeleaf Template Engine to create the ability to
+                download PDF reports.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Developed a variety of APIs, constructed backend business logic,
+                and created Junits for those business logic with more than 95%
+                coverage.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Utilized technologies: React, Redux, Formik, Spring Boot,
+                Postgress SQL, Material UI, Hibernate, ThymeLeaf Template Engine
+              </div>
             </AccordionDetails>
           </Accordion>
 

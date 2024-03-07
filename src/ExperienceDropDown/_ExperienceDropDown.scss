@@ -84,6 +84,8 @@ $base-class: experience-dropdown;
 
   &__text {
     font-size: 15px;
+    line-height: 16px;
+    margin: 12px 0px;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -135,6 +137,12 @@ $base-class: experience-dropdown;
     &__duration {
       font-size: 14px;
       color: #141c3a;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 16px;
+      margin: 12px 0px;
     }
 
     &__journey {
