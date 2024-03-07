@@ -18,7 +18,7 @@ $base-class: experience-dropdown;
 
     .MuiButtonBase-root {
       background-color: #f5f5f5;
-      border-width: 1px 1px 0px 1px;
+      border-width: 1px;
       border-style: solid;
       border-color: #d9d8d8;
     }
@@ -29,6 +29,11 @@ $base-class: experience-dropdown;
 
     div[class*='MuiAccordionSummary-content'] {
       margin: 12px 0px;
+    }
+
+    div[class*='MuiAccordion-region'] {
+      background-color: #f6f9ff;
+      border: 1px solid #d9d8d8;
     }
   }
 
@@ -75,6 +80,10 @@ $base-class: experience-dropdown;
     font-weight: 700;
     font-size: 25px;
     margin-top: 10px;
+  }
+
+  &__text {
+    font-size: 15px;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {

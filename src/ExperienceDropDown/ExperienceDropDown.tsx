@@ -55,9 +55,11 @@ function ExperienceDropDown() {
               </div>
             </AccordionSummary>
             <AccordionDetails>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              <div className={`${scssObj.baseClass}__text`}>
+                Developed an Auto-Logout function after a set period of
+                inactivity for banking applications specialized for accounting
+                of Law firms.
+              </div>
             </AccordionDetails>
           </Accordion>
 
