@@ -56,6 +56,7 @@ function ExperienceDropDown() {
             </AccordionSummary>
             <AccordionDetails>
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Developed an{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   Auto-Logout function after a set period of inactivity
@@ -68,6 +69,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Researched and selected the finest React package for data
                 visualization, then implemented the whole{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
@@ -77,6 +79,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Upgraded the bank's whole front-end stack from{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   React 16 to React 18
@@ -84,7 +87,8 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a function that would generate a{' '}
+                <span className={`${scssObj.baseClass}__check`}>✔</span> Created
+                a function that would generate a{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   Digital Balance Sheet
                 </span>{' '}
@@ -96,7 +100,8 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Built a complete user flow for law firms'{' '}
+                <span className={`${scssObj.baseClass}__check`}>✔</span> Built a
+                complete user flow for law firms'{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   Official Cheque dashboard and Official Cheque creation
                 </span>{' '}
@@ -104,7 +109,8 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a feature that allows users to{' '}
+                <span className={`${scssObj.baseClass}__check`}>✔</span> Created
+                a feature that allows users to{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   manually add Accounts and import Transactions
                 </span>{' '}
@@ -113,7 +119,8 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a feature that allows users to{' '}
+                <span className={`${scssObj.baseClass}__check`}>✔</span> Created
+                a feature that allows users to{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   upload cheque images for transactions, send those images
                 </span>{' '}
@@ -125,7 +132,8 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a feature for{' '}
+                <span className={`${scssObj.baseClass}__check`}>✔</span> Created
+                a feature for{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   Digital Invoicing and Billing
                 </span>{' '}
@@ -133,7 +141,8 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Used the{' '}
+                <span className={`${scssObj.baseClass}__check`}>✔</span> Used
+                the{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   Thymeleaf Template Engine
                 </span>{' '}
@@ -145,6 +154,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Developed a variety of{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   APIs, constructed backend business logic
@@ -155,6 +165,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Utilized technologies:{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   React, Redux, Formik, Spring Boot, Postgress SQL, Material UI,
@@ -190,6 +201,7 @@ function ExperienceDropDown() {
             </AccordionSummary>
             <AccordionDetails>
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Spearheaded the{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   website enhancements
@@ -202,6 +214,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Leveraged{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   React.js, HTML, CSS, and Redux
@@ -214,6 +227,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Proactively identified and resolved technical issues, ensuring
                 the{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
@@ -223,6 +237,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Implemented{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   Redux for state management
@@ -235,6 +250,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Conducted{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   regular code reviews and performance optimizations
@@ -243,6 +259,7 @@ function ExperienceDropDown() {
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
+                <span className={`${scssObj.baseClass}__check`}>✔</span>{' '}
                 Actively participated in{' '}
                 <span className={`${scssObj.baseClass}__bold`}>
                   agile development processes, including sprint planning,

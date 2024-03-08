@@ -92,6 +92,11 @@ $base-class: experience-dropdown;
     font-weight: 600;
   }
 
+  &__check {
+    color: #05718c;
+    font-size: 20px;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__accordian-container {
       width: calc(100% - 40px);
