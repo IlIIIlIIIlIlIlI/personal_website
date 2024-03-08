@@ -56,62 +56,110 @@ function ExperienceDropDown() {
             </AccordionSummary>
             <AccordionDetails>
               <div className={`${scssObj.baseClass}__text`}>
-                Developed an Auto-Logout function after a set period of
-                inactivity for banking applications specialized for accounting
-                of Law firms.
+                Developed an{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Auto-Logout function after a set period of inactivity
+                </span>{' '}
+                for banking applications specialized for{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Accounting of Law Firms
+                </span>
+                .
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
                 Researched and selected the finest React package for data
-                visualization, then implemented the whole data visualization
-                application for law firms' accounting and cash flow.
+                visualization, then implemented the whole{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  data visualization application for law firms' accounting and
+                  cash flow.
+                </span>
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Upgraded the bank's whole front-end stack from React 16 to React
-                18
+                Upgraded the bank's whole front-end stack from{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  React 16 to React 18
+                </span>
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a function that would generate a Digital Balance Sheet
-                based on the Transactional Activity of law firms.
+                Created a function that would generate a{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Digital Balance Sheet
+                </span>{' '}
+                based on the{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Transactional Activity
+                </span>{' '}
+                of law firms.
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Built a complete user flow for law firms' Official Cheque
-                dashboard and Official Cheque creation in react framework.
+                Built a complete user flow for law firms'{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Official Cheque dashboard and Official Cheque creation
+                </span>{' '}
+                in react framework.
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a feature that allows users to manually add Accounts and
-                import Transactions into those accounts using a CSV file.
+                Created a feature that allows users to{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  manually add Accounts and import Transactions
+                </span>{' '}
+                into those accounts using a{' '}
+                <span className={`${scssObj.baseClass}__bold`}>CSV file</span>.
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a feature that allows users to upload cheque images for
-                transactions, send those images to the back end for storage, and
-                retrieve those cheque images.
+                Created a feature that allows users to{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  upload cheque images for transactions, send those images
+                </span>{' '}
+                to the back end for storage, and{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  retrieve those cheque images
+                </span>
+                .
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Created a feature for Digital Invoicing and Billing that allows
-                law firms to create bills for their services.
+                Created a feature for{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Digital Invoicing and Billing
+                </span>{' '}
+                that allows law firms to create bills for their services.
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Used the Thymeleaf Template Engine to create the ability to
-                download PDF reports.
+                Used the{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Thymeleaf Template Engine
+                </span>{' '}
+                to create the ability to{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  download PDF reports
+                </span>
+                .
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Developed a variety of APIs, constructed backend business logic,
-                and created Junits for those business logic with more than 95%
-                coverage.
+                Developed a variety of{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  APIs, constructed backend business logic
+                </span>
+                , and created{' '}
+                <span className={`${scssObj.baseClass}__bold`}>Junits</span> for
+                those business logic with more than 95% coverage.
               </div>
 
               <div className={`${scssObj.baseClass}__text`}>
-                Utilized technologies: React, Redux, Formik, Spring Boot,
-                Postgress SQL, Material UI, Hibernate, ThymeLeaf Template Engine
+                Utilized technologies:{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  React, Redux, Formik, Spring Boot, Postgress SQL, Material UI,
+                  Hibernate, ThymeLeaf Template Engine
+                </span>
               </div>
             </AccordionDetails>
           </Accordion>
