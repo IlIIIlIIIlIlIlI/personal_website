@@ -189,9 +189,68 @@ function ExperienceDropDown() {
               </div>
             </AccordionSummary>
             <AccordionDetails>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              <div className={`${scssObj.baseClass}__text`}>
+                Spearheaded the{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  website enhancements
+                </span>{' '}
+                for a leading electrical company, providing a{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  smooth user experience and optimal efficiency
+                </span>
+                .
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Leveraged{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  React.js, HTML, CSS, and Redux
+                </span>{' '}
+                to implement critical frontend features,{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Spring-Boot
+                </span>{' '}
+                for backend activities
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Proactively identified and resolved technical issues, ensuring
+                the{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  website's compatibility across multiple browsers and devices
+                </span>
+                .
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Implemented{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  Redux for state management
+                </span>
+                , significantly improving the{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  predictability and scalability
+                </span>{' '}
+                of the application's frontend architecture.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Conducted{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  regular code reviews and performance optimizations
+                </span>{' '}
+                to uphold coding standards and enhance website responsiveness.
+              </div>
+
+              <div className={`${scssObj.baseClass}__text`}>
+                Actively participated in{' '}
+                <span className={`${scssObj.baseClass}__bold`}>
+                  agile development processes, including sprint planning,
+                  stand-ups, and retrospectives
+                </span>
+                , to drive continuous improvement and timely delivery of website
+                updates.
+              </div>
             </AccordionDetails>
           </Accordion>
         </div>
