@@ -7,6 +7,7 @@ $base-class: interactive-cards;
 .#{$base-class} {
   &__container {
     font-family: 'eurostile', sans-serif;
+    width: 100%;
   }
 
   &__main-card {
