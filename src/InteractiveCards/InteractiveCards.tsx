@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import scssObj from './_InteractiveCards.scss';
 import Card from '@mui/material/Card';
 import { CardActionArea } from '@mui/material';
@@ -6,9 +6,16 @@ import { CardActionArea } from '@mui/material';
 interface Props {
   backGroundImageLink: string;
   backGroundColour: string;
+  nonHoverContent: ReactNode;
+  hoverContent: ReactNode;
 }
 
-function InteractiveCards({ backGroundImageLink, backGroundColour }: Props) {
+function InteractiveCards({
+  backGroundImageLink,
+  backGroundColour,
+  nonHoverContent,
+  hoverContent,
+}: Props) {
   return (
     <div className={`${scssObj.baseClass}__container`}>
       <Card className={`${scssObj.baseClass}__main-card`}>
@@ -17,19 +24,21 @@ function InteractiveCards({ backGroundImageLink, backGroundColour }: Props) {
             className={`${scssObj.baseClass}__non-hover-variable`}
             style={{
               backgroundImage: `url('${backGroundImageLink}')`,
-              backgroundSize: 'cover',
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
             }}
           >
             <div
               className={`${scssObj.baseClass}__faint-backgrounder`}
               style={{ backgroundColor: backGroundColour }}
             >
-              first content
+              {nonHoverContent}
             </div>
           </div>
 
           <div className={`${scssObj.baseClass}__hover-variable`}>
-            second content
+            {hoverContent}
           </div>
         </CardActionArea>
       </Card>

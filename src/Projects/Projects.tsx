@@ -10,6 +10,8 @@ function Projects() {
           <InteractiveCards
             backGroundImageLink='/images/desktop_background.png'
             backGroundColour='rgba(255, 255, 255, 0.8)'
+            nonHoverContent={<div>suraj</div>}
+            hoverContent={<div>sandesh</div>}
           />
         </div>
 
@@ -17,6 +19,8 @@ function Projects() {
           <InteractiveCards
             backGroundImageLink='/images/desktop_background.png'
             backGroundColour='rgba(255, 255, 255, 0.8)'
+            nonHoverContent={<div>suraj</div>}
+            hoverContent={<div>sandesh</div>}
           />
         </div>
       </div>
