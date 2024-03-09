@@ -61,7 +61,7 @@ function Projects() {
           <InteractiveCards
             backGroundColor='#2F3D49'
             backGroundImageLink='/images/coding-portal.png'
-            backGroundColour='rgba(63, 58, 137, 0.85)'
+            backGroundColour='RGBA(33, 63, 113, 0.85)'
             nonHoverContent={
               <div className={`${scssObj.baseClass}__non-hover`}>
                 <div>Coding Portal</div>
