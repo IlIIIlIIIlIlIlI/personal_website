@@ -13,7 +13,9 @@ function Projects() {
             backGroundColor='#F7F0E8'
             backGroundImageLink='/images/sudoku.png'
             backGroundColour='rgba(26, 166, 171, 0.8)'
-            nonHoverContent={<div>suraj</div>}
+            nonHoverContent={
+              <div className={`${scssObj.baseClass}__non-hover`}>suraj</div>
+            }
             hoverContent={
               <div className={`${scssObj.baseClass}__on-hover`}>
                 <div className={`${scssObj.baseClass}__extra`}>
