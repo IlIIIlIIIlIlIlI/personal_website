@@ -30,11 +30,25 @@ function Projects() {
                   <Button
                     className={`${scssObj.baseClass}__button-website`}
                     endIcon={<GitHubIcon style={{ color: 'white' }} />}
+                    onClick={() => {
+                      window.open(
+                        'https://github.com/IlIIIlIIIlIlIlI/sudoku-react-client/tree/sudoku-react-client-with-saga',
+                        '_blank'
+                      );
+                    }}
                   >
                     Github
                   </Button>
 
-                  <Button className={`${scssObj.baseClass}__button-website`}>
+                  <Button
+                    className={`${scssObj.baseClass}__button-website`}
+                    onClick={() => {
+                      window.open(
+                        'https://suraj-jaiswal-react-sudoku.netlify.app/',
+                        '_blank'
+                      );
+                    }}
+                  >
                     Visit Website {'>'}
                   </Button>
                 </div>
