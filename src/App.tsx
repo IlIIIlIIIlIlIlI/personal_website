@@ -1,5 +1,6 @@
 import ExperienceDropDown from './ExperienceDropDown';
 import ExperinceChart from './ExperinceChart';
+import InteractiveCards from './InteractiveCards';
 import Introduction from './Introduction';
 import Skills from './Skills';
 
@@ -10,6 +11,7 @@ function App() {
       <Skills />
       {/* <ExperinceChart /> */}
       <ExperienceDropDown />
+      <InteractiveCards />
     </div>
   );
 }

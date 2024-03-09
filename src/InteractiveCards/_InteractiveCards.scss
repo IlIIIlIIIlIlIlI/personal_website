@@ -1,0 +1,57 @@
+$base-class: interactive-cards;
+
+:export {
+  baseClass: $base-class;
+}
+
+.#{$base-class} {
+  &__container {
+    font-family: 'eurostile', sans-serif;
+  }
+
+  &__main-card {
+    width: 200px;
+    height: 200px;
+  }
+
+  &__action-card {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #d9d8d8 !important;
+    position: relative;
+  }
+
+  &__non-hover-variable {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    opacity: 100;
+    scale: 1;
+    transition-property: opacity, scale;
+    transition: 0.1s ease-in-out;
+  }
+
+  &__hover-variable {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+    transition: opacity 0.1s ease-in-out;
+  }
+
+  &__action-card:hover &__non-hover-variable {
+    position: absolute;
+    opacity: 0;
+    scale: 3;
+    transition-property: opacity, scale;
+    transition: 0.5s ease-in-out;
+  }
+
+  &__action-card:hover &__hover-variable {
+    position: relative;
+    opacity: 100;
+    transition: opacity 0.5s ease-in-out;
+  }
+}
