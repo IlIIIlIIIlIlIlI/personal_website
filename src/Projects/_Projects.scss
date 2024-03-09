@@ -7,5 +7,23 @@ $base-class: projects;
 .#{$base-class} {
   &__container {
     font-family: 'eurostile', sans-serif;
+    width: 1024px;
+    margin: auto;
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    &__container {
+      font-family: 'eurostile', sans-serif;
+      width: 512px;
+      margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    &__container {
+      font-family: 'eurostile', sans-serif;
+      width: calc(100% - 40px);
+      margin: auto;
+    }
   }
 }

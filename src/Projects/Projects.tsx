@@ -5,10 +5,12 @@ import InteractiveCards from '../InteractiveCards/InteractiveCards';
 function Projects() {
   return (
     <div className={`${scssObj.baseClass}__container`}>
-      <InteractiveCards
-        backGroundImageLink='/images/desktop_background.png'
-        backGroundColour='rgba(255, 255, 255, 0.8)'
-      />
+      <div>
+        <InteractiveCards
+          backGroundImageLink='/images/desktop_background.png'
+          backGroundColour='rgba(255, 255, 255, 0.8)'
+        />
+      </div>
     </div>
   );
 }
