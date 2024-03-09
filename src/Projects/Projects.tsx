@@ -1,6 +1,8 @@
 import React from 'react';
 import scssObj from './_Projects.scss';
 import InteractiveCards from '../InteractiveCards/InteractiveCards';
+import Button from '@mui/material/Button';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
   return (
@@ -8,16 +10,38 @@ function Projects() {
       <div className={`${scssObj.baseClass}__rows`}>
         <div className={`${scssObj.baseClass}__box`}>
           <InteractiveCards
-            backGroundImageLink='/images/desktop_background.png'
-            backGroundColour='rgba(255, 255, 255, 0.8)'
+            backGroundColor='#F7F0E8'
+            backGroundImageLink='/images/sudoku.png'
+            backGroundColour='rgba(26, 166, 171, 0.8)'
             nonHoverContent={<div>suraj</div>}
-            hoverContent={<div>sandesh</div>}
+            hoverContent={
+              <div className={`${scssObj.baseClass}__on-hover`}>
+                <div className={`${scssObj.baseClass}__extra`}>
+                  Implemented a mobile responsive Sudoku web application with
+                  varying difficulty levels using React, Redux, Redux-Saga,
+                  Formik, Material-UI.
+                </div>
+                <div>
+                  <Button
+                    className={`${scssObj.baseClass}__button-website`}
+                    endIcon={<GitHubIcon style={{ color: 'white' }} />}
+                  >
+                    Github
+                  </Button>
+
+                  <Button className={`${scssObj.baseClass}__button-website`}>
+                    Visit Website {'>'}
+                  </Button>
+                </div>
+              </div>
+            }
           />
         </div>
 
         <div className={`${scssObj.baseClass}__box`}>
           <InteractiveCards
-            backGroundImageLink='/images/desktop_background.png'
+            backGroundColor=''
+            backGroundImageLink='/images/sudoku.png'
             backGroundColour='rgba(255, 255, 255, 0.8)'
             nonHoverContent={<div>suraj</div>}
             hoverContent={<div>sandesh</div>}

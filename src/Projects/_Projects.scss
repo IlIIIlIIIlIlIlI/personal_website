@@ -22,6 +22,46 @@ $base-class: projects;
     margin: 16px 8px 16px 8px;
   }
 
+  &__on-hover {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__on-hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button-website {
+    color: white !important;
+    border: 1px solid #6e07f3 !important;
+    border-radius: 20px !important;
+    font-size: 16px !important;
+    font-family: 'eurostile', sans-serif !important;
+    text-transform: none !important;
+    margin: 10px !important;
+  }
+
+  &__button-website:hover {
+    color: white !important;
+    border: 1px solid #6e07f3 !important;
+    border-radius: 20px !important;
+    background-color: #6e07f3 !important;
+  }
+
+  &__extra {
+    font-family: 'eurostile', sans-serif;
+    font-size: 18px;
+    margin: 0px 30px 20px;
+    text-align: center;
+    color: white;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__container {
       font-family: 'eurostile', sans-serif;

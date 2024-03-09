@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 import { CardActionArea } from '@mui/material';
 
 interface Props {
+  backGroundColor: string;
   backGroundImageLink: string;
   backGroundColour: string;
   nonHoverContent: ReactNode;
@@ -11,6 +12,7 @@ interface Props {
 }
 
 function InteractiveCards({
+  backGroundColor,
   backGroundImageLink,
   backGroundColour,
   nonHoverContent,
@@ -23,6 +25,7 @@ function InteractiveCards({
           <div
             className={`${scssObj.baseClass}__non-hover-variable`}
             style={{
+              backgroundColor: backGroundColor,
               backgroundImage: `url('${backGroundImageLink}')`,
               backgroundSize: 'contain',
               backgroundRepeat: 'no-repeat',
