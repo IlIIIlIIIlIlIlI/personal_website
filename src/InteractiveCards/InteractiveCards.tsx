@@ -15,15 +15,15 @@ function InteractiveCards() {
               backgroundSize: 'cover',
             }}
           >
-            first content
+            <div
+              className={`${scssObj.baseClass}__faint-backgrounder`}
+              style={{ backgroundColor: `rgba(255, 255, 255, ${0})` }}
+            >
+              first content
+            </div>
           </div>
 
-          <div
-            className={`${scssObj.baseClass}__hover-variable`}
-            style={{
-              backgroundColor: '#ABABAB',
-            }}
-          >
+          <div className={`${scssObj.baseClass}__hover-variable`}>
             second content
           </div>
         </CardActionArea>

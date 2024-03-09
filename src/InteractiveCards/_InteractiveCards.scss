@@ -37,8 +37,9 @@ $base-class: interactive-cards;
     height: 100%;
     width: 100%;
     opacity: 0;
-
-    transition: opacity 0.1s ease-in-out;
+    background-color: white;
+    transition-property: opacity, background-color;
+    transition: 0.1s ease-in-out;
   }
 
   &__action-card:hover &__non-hover-variable {
@@ -52,6 +53,14 @@ $base-class: interactive-cards;
   &__action-card:hover &__hover-variable {
     position: relative;
     opacity: 100;
-    transition: opacity 0.5s ease-in-out;
+    background-color: #3b3e8c;
+    border-radius: 6px;
+    transition-property: opacity, background-color;
+    transition: 0.75s ease-in-out;
+  }
+
+  &__faint-backgrounder {
+    width: 100%;
+    height: 100%;
   }
 }
