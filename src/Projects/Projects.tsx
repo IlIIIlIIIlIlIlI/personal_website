@@ -12,9 +12,12 @@ function Projects() {
           <InteractiveCards
             backGroundColor='#F7F0E8'
             backGroundImageLink='/images/sudoku.png'
-            backGroundColour='rgba(26, 166, 171, 0.8)'
+            backGroundColour='rgba(63, 58, 137, 0.85)'
             nonHoverContent={
-              <div className={`${scssObj.baseClass}__non-hover`}>suraj</div>
+              <div className={`${scssObj.baseClass}__non-hover`}>
+                <div>Mobile Responsive</div>
+                <div>Sudoku Puzzle Website</div>
+              </div>
             }
             hoverContent={
               <div className={`${scssObj.baseClass}__on-hover`}>

@@ -8,6 +8,7 @@ $base-class: interactive-cards;
   &__container {
     font-family: 'eurostile', sans-serif;
     width: 100%;
+    border-radius: 8px;
   }
 
   &__main-card {

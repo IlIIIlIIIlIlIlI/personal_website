@@ -33,6 +33,7 @@ $base-class: projects;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
   }
 
   &__button-website {
@@ -50,6 +51,14 @@ $base-class: projects;
     border: 1px solid #6e07f3 !important;
     border-radius: 20px !important;
     background-color: #6e07f3 !important;
+  }
+
+  &__non-hover {
+    font-family: 'eurostile', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
   }
 
   &__extra {
