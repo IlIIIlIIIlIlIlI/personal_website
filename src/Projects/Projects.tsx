@@ -6,15 +6,19 @@ function Projects() {
   return (
     <div className={`${scssObj.baseClass}__container`}>
       <div className={`${scssObj.baseClass}__rows`}>
-        <InteractiveCards
-          backGroundImageLink='/images/desktop_background.png'
-          backGroundColour='rgba(255, 255, 255, 0.8)'
-        />
+        <div className={`${scssObj.baseClass}__box`}>
+          <InteractiveCards
+            backGroundImageLink='/images/desktop_background.png'
+            backGroundColour='rgba(255, 255, 255, 0.8)'
+          />
+        </div>
 
-        <InteractiveCards
-          backGroundImageLink='/images/desktop_background.png'
-          backGroundColour='rgba(255, 255, 255, 0.8)'
-        />
+        <div className={`${scssObj.baseClass}__box`}>
+          <InteractiveCards
+            backGroundImageLink='/images/desktop_background.png'
+            backGroundColour='rgba(255, 255, 255, 0.8)'
+          />
+        </div>
       </div>
     </div>
   );

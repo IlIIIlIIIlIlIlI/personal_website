@@ -17,6 +17,11 @@ $base-class: projects;
     align-items: center;
   }
 
+  &__box {
+    width: 100%;
+    margin: 16px 8px 16px 8px;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__container {
       font-family: 'eurostile', sans-serif;
@@ -29,6 +34,11 @@ $base-class: projects;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    &__box {
+      width: 100%;
+      margin: 8px;
     }
   }
 
@@ -44,6 +54,11 @@ $base-class: projects;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    &__box {
+      width: 100%;
+      margin: 8px;
     }
   }
 }
