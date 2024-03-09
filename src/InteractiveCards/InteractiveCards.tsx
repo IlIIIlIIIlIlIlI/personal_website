@@ -3,7 +3,12 @@ import scssObj from './_InteractiveCards.scss';
 import Card from '@mui/material/Card';
 import { CardActionArea } from '@mui/material';
 
-function InteractiveCards() {
+interface Props {
+  backGroundImageLink: string;
+  backGroundColour: string;
+}
+
+function InteractiveCards({ backGroundImageLink, backGroundColour }: Props) {
   return (
     <div className={`${scssObj.baseClass}__container`}>
       <Card className={`${scssObj.baseClass}__main-card`}>
@@ -11,13 +16,13 @@ function InteractiveCards() {
           <div
             className={`${scssObj.baseClass}__non-hover-variable`}
             style={{
-              backgroundImage: `url('/images/desktop_background.png')`,
+              backgroundImage: `url('${backGroundImageLink}')`,
               backgroundSize: 'cover',
             }}
           >
             <div
               className={`${scssObj.baseClass}__faint-backgrounder`}
-              style={{ backgroundColor: `rgba(255, 255, 255, ${0})` }}
+              style={{ backgroundColor: backGroundColour }}
             >
               first content
             </div>

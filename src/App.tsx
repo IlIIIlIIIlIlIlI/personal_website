@@ -11,7 +11,10 @@ function App() {
       <Skills />
       {/* <ExperinceChart /> */}
       <ExperienceDropDown />
-      <InteractiveCards />
+      <InteractiveCards
+        backGroundImageLink='/images/desktop_background.png'
+        backGroundColour='rgba(255, 255, 255, 0.8)'
+      />
     </div>
   );
 }
