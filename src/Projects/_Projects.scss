@@ -1,0 +1,11 @@
+$base-class: projects;
+
+:export {
+  baseClass: $base-class;
+}
+
+.#{$base-class} {
+  &__container {
+    font-family: 'eurostile', sans-serif;
+  }
+}
