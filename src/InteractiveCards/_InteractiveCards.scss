@@ -8,12 +8,13 @@ $base-class: interactive-cards;
   &__container {
     font-family: 'eurostile', sans-serif;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 8px !important;
   }
 
   &__main-card {
     width: 100%;
     height: 290px;
+    border-radius: 8px !important;
   }
 
   &__action-card {
@@ -21,9 +22,11 @@ $base-class: interactive-cards;
     width: 100%;
     border: 1px solid #d9d8d8 !important;
     position: relative;
+    border-radius: 8px !important;
   }
 
   &__non-hover-variable {
+    border-radius: 8px !important;
     position: relative;
     height: 100%;
     width: 100%;
