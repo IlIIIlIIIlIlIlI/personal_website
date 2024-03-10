@@ -253,13 +253,12 @@ function Projects() {
 
         <div className={`${scssObj.baseClass}__box`}>
           <InteractiveCards
-            backGroundColor='RGBA(250, 235, 215)'
-            backGroundImageLink='/images/task-sheet.png'
-            backGroundColour='RGBA(212, 103, 82, 0.80)'
+            backGroundColor='RGB(245, 255, 245)'
+            backGroundImageLink='/images/personal-website.png'
+            backGroundColour='RGBA(31, 81, 113, 0.90)'
             nonHoverContent={
               <div className={`${scssObj.baseClass}__non-hover`}>
-                <div>Personal Task's</div>
-                <div>Jira Board</div>
+                <div>Portfolio Website</div>
               </div>
             }
             hoverContent={
@@ -274,7 +273,7 @@ function Projects() {
                     endIcon={<GitHubIcon style={{ color: 'white' }} />}
                     onClick={() => {
                       window.open(
-                        'https://github.com/IlIIIlIIIlIlIlI/Interactive-To-Do-List',
+                        'https://github.com/IlIIIlIIIlIlIlI/personal_website',
                         '_blank'
                       );
                     }}
@@ -282,7 +281,7 @@ function Projects() {
                     Github
                   </Button>
 
-                  {/* <Button
+                  <Button
                     className={`${scssObj.baseClass}__button-website`}
                     onClick={() => {
                       window.open(
@@ -292,7 +291,7 @@ function Projects() {
                     }}
                   >
                     Visit Website {'>'}
-                  </Button> */}
+                  </Button>
                 </div>
               </div>
             }
