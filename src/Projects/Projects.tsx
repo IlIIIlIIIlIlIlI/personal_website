@@ -12,6 +12,7 @@ function Projects() {
 
   return (
     <div className={`${scssObj.baseClass}__container`}>
+      <div className={`${scssObj.baseClass}__title`}>Notable Creations</div>
       <div className={`${scssObj.baseClass}__rows`}>
         <div className={`${scssObj.baseClass}__box`}>
           <InteractiveCards

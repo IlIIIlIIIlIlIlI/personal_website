@@ -11,6 +11,14 @@ $base-class: projects;
     margin: auto;
   }
 
+  &__title {
+    font-size: 35px;
+    color: #141c3a;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0px 20px;
+  }
+
   &__rows {
     display: flex;
     justify-content: center;
@@ -87,6 +95,14 @@ $base-class: projects;
       width: 100%;
       margin: 8px;
     }
+
+    &__title {
+      font-size: 35px;
+      color: #141c3a;
+      font-weight: 700;
+      text-align: center;
+      margin: 60px 0px 20px;
+    }
   }
 
   @media only screen and (max-width: 480px) {
@@ -106,6 +122,14 @@ $base-class: projects;
     &__box {
       width: 100%;
       margin: 8px;
+    }
+
+    &__title {
+      font-size: 30px;
+      color: #141c3a;
+      font-weight: 700;
+      text-align: center;
+      margin: 60px 0px 20px;
     }
   }
 }

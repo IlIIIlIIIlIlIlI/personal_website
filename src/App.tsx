@@ -10,8 +10,8 @@ function App() {
       <Introduction />
       <Skills />
       {/* <ExperinceChart /> */}
-      <ExperienceDropDown />
       <Projects />
+      <ExperienceDropDown />
     </div>
   );
 }
