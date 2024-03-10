@@ -157,20 +157,20 @@ function Projects() {
 
         <div className={`${scssObj.baseClass}__box`}>
           <InteractiveCards
-            backGroundColor='#2F3D49'
-            backGroundImageLink='/images/coding-portal.png'
-            backGroundColour='RGBA(33, 63, 113, 0.85)'
+            backGroundColor='RGBA(250, 235, 215)'
+            backGroundImageLink='/images/task-sheet.png'
+            backGroundColour='RGBA(212, 103, 82, 0.80)'
             nonHoverContent={
               <div className={`${scssObj.baseClass}__non-hover`}>
-                <div>Coding Portal</div>
-                <div>With React</div>
+                <div>Personal Task's</div>
+                <div>Jira Board</div>
               </div>
             }
             hoverContent={
               <div className={`${scssObj.baseClass}__on-hover`}>
                 <div className={`${scssObj.baseClass}__extra`}>
-                  Developed a interactive coding portal utilizing React, Redux,
-                  Monaco-editor, Axios, UnPkg CDN
+                  Developed a mobile responsive website for efficient task
+                  management utilizing React, Redux, Formik and Material-UI
                 </div>
                 <div>
                   <Button
@@ -178,7 +178,7 @@ function Projects() {
                     endIcon={<GitHubIcon style={{ color: 'white' }} />}
                     onClick={() => {
                       window.open(
-                        'https://github.com/IlIIIlIIIlIlIlI/interactive-coding-website',
+                        'https://github.com/IlIIIlIIIlIlIlI/Interactive-To-Do-List',
                         '_blank'
                       );
                     }}
@@ -190,7 +190,7 @@ function Projects() {
                     className={`${scssObj.baseClass}__button-website`}
                     onClick={() => {
                       window.open(
-                        'https://suraj-jaiswal-coding-portal.netlify.app/',
+                        'https://suraj-jaiswal-to-do.netlify.app/',
                         '_blank'
                       );
                     }}
