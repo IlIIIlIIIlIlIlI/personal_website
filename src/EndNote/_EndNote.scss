@@ -47,6 +47,15 @@ $base-class: end-note;
     border: 2px solid #a4e8de !important;
   }
 
+  &__connect-button:hover {
+    background-color: #a4e8de !important;
+    color: #141c3a !important;
+  }
+
+  &__connect-button:hover &__whatsapp-icon {
+    color: #141c3a !important;
+  }
+
   &__whatsapp-icon {
     font-size: 30px !important;
     color: white !important;
