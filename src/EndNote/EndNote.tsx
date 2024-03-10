@@ -1,12 +1,12 @@
 import React from 'react';
 import scssObj from './_EndNote.scss';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 function EndNote() {
   return (
@@ -76,6 +76,22 @@ function EndNote() {
           }}
         >
           <LinkedInIcon className={`${scssObj.baseClass}__icons`} />
+        </Button>
+      </div>
+
+      <div className={`${scssObj.baseClass}__resume`}>
+        <Button
+          className={`${scssObj.baseClass}__resume-button`}
+          endIcon={
+            <PictureAsPdfIcon
+              className={`${scssObj.baseClass}__whatsapp-icon`}
+            />
+          }
+          onClick={() => {
+            // window.open('https://wa.me/+918805517049', '_blank');
+          }}
+        >
+          Download My Resume
         </Button>
       </div>
     </div>

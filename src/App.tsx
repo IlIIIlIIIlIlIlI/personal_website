@@ -1,5 +1,5 @@
 import ExperienceDropDown from './ExperienceDropDown';
-import ExperinceChart from './ExperinceChart';
+// import ExperinceChart from './ExperinceChart';
 import Projects from './Projects';
 import Introduction from './Introduction';
 import Skills from './Skills';

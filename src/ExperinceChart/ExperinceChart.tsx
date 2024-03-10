@@ -92,12 +92,12 @@ function ExperinceChart() {
     },
     dataLabels: {
       enabled: true,
-      formatter: (val, opts) => {
-        const dataIndex = opts.seriesIndex;
-        const label = opts.w.config.series[dataIndex].data[0].meta;
+      // formatter: (val, opts) => {
+      //   // const dataIndex = opts.seriesIndex;
+      //   // const label = opts.w.config.series[dataIndex].data[0].meta;
 
-        return 'suraj';
-      },
+      //   return 'suraj';
+      // },
     },
     xaxis: {
       type: 'datetime',

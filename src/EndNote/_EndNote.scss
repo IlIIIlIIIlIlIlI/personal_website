@@ -65,8 +65,6 @@ $base-class: end-note;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    margin-bottom: 40px;
   }
 
   &__contact {
@@ -94,6 +92,29 @@ $base-class: end-note;
   &__icons {
     font-size: 30px !important;
     color: white !important;
+  }
+
+  &__resume {
+    margin: 20px 0px 100px;
+  }
+
+  &__resume-button {
+    font-family: 'eurostile', sans-serif !important;
+    color: white !important;
+    text-transform: none !important;
+    font-size: 20px !important;
+    border-radius: 25px !important;
+    width: 300px !important;
+    border: 2px solid #a4e8de !important;
+  }
+
+  &__resume-button:hover {
+    color: #141c3a !important;
+    background-color: #a4e8de !important;
+  }
+
+  &__resume-button:hover &__whatsapp-icon {
+    color: #141c3a !important;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {
