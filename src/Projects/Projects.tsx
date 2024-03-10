@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import scssObj from './_Projects.scss';
 import InteractiveCards from '../InteractiveCards/InteractiveCards';
 import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import Snackbar from '@mui/material/Snackbar';
+import Alert from '@mui/material/Alert';
 
 function Projects() {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className={`${scssObj.baseClass}__container`}>
       <div className={`${scssObj.baseClass}__rows`}>
@@ -284,10 +288,7 @@ function Projects() {
                   <Button
                     className={`${scssObj.baseClass}__button-website`}
                     onClick={() => {
-                      window.open(
-                        'https://suraj-jaiswal-to-do.netlify.app/',
-                        '_blank'
-                      );
+                      setOpen(true);
                     }}
                   >
                     Visit Website {'>'}
@@ -297,6 +298,25 @@ function Projects() {
             }
           />
         </div>
+        <Snackbar
+          open={open}
+          anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+          autoHideDuration={2000}
+          onClose={() => {
+            setOpen(false);
+          }}
+        >
+          <Alert
+            onClose={() => {
+              setOpen(false);
+            }}
+            severity='success'
+            variant='filled'
+            sx={{ width: '100%' }}
+          >
+            Welcome! Feel free to browse through my portfolio.
+          </Alert>
+        </Snackbar>
       </div>
     </div>
   );
