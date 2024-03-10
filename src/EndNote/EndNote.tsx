@@ -32,7 +32,12 @@ function EndNote() {
       </div>
 
       <div className={`${scssObj.baseClass}__connections`}>
-        <Button className={`${scssObj.baseClass}__contact`}>
+        <Button
+          className={`${scssObj.baseClass}__contact`}
+          onClick={() => {
+            window.open('tel:8805517049');
+          }}
+        >
           <PhoneIcon className={`${scssObj.baseClass}__icons`} />
         </Button>
 
