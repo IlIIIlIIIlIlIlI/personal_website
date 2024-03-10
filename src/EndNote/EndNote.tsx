@@ -3,6 +3,10 @@ import scssObj from './_EndNote.scss';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function EndNote() {
   return (
@@ -26,12 +30,24 @@ function EndNote() {
           </Button>
         </div>
       </div>
-      <div>suraj</div>
-      <div>suraj</div>
-      <div>suraj</div>
-      <div>suraj</div>
-      <div>suraj</div>
-      <div>suraj</div>
+
+      <div className={`${scssObj.baseClass}__connections`}>
+        <Button className={`${scssObj.baseClass}__contact`}>
+          <PhoneIcon className={`${scssObj.baseClass}__icons`} />
+        </Button>
+
+        <Button className={`${scssObj.baseClass}__contact`}>
+          <EmailIcon className={`${scssObj.baseClass}__icons`} />
+        </Button>
+
+        <Button className={`${scssObj.baseClass}__contact`}>
+          <GitHubIcon className={`${scssObj.baseClass}__icons`} />
+        </Button>
+
+        <Button className={`${scssObj.baseClass}__contact`}>
+          <LinkedInIcon className={`${scssObj.baseClass}__icons`} />
+        </Button>
+      </div>
     </div>
   );
 }

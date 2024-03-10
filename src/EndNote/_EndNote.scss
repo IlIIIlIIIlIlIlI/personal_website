@@ -61,6 +61,41 @@ $base-class: end-note;
     color: white !important;
   }
 
+  &__connections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 40px;
+  }
+
+  &__contact {
+    width: 64px !important;
+    height: 64px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border-radius: 50% !important;
+    border: 2px solid white !important;
+
+    margin: 20px !important;
+  }
+
+  &__contact:hover {
+    background-color: white !important;
+  }
+
+  &__contact:hover &__icons {
+    color: #141c3a !important;
+  }
+
+  &__icons {
+    font-size: 30px !important;
+    color: white !important;
+  }
+
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     &__connect {
       border-radius: 8px;
