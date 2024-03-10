@@ -41,15 +41,37 @@ function EndNote() {
           <PhoneIcon className={`${scssObj.baseClass}__icons`} />
         </Button>
 
-        <Button className={`${scssObj.baseClass}__contact`}>
+        <Button
+          className={`${scssObj.baseClass}__contact`}
+          onClick={() => {
+            window.open(
+              'mailto:dev.suraj.jaiswal@gmail.com',
+              //   ?cc=srj1431998@gmail.com',
+              '_blank'
+            );
+          }}
+        >
           <EmailIcon className={`${scssObj.baseClass}__icons`} />
         </Button>
 
-        <Button className={`${scssObj.baseClass}__contact`}>
+        <Button
+          className={`${scssObj.baseClass}__contact`}
+          onClick={() => {
+            window.open('https://github.com/IlIIIlIIIlIlIlI', '_blank');
+          }}
+        >
           <GitHubIcon className={`${scssObj.baseClass}__icons`} />
         </Button>
 
-        <Button className={`${scssObj.baseClass}__contact`}>
+        <Button
+          className={`${scssObj.baseClass}__contact`}
+          onClick={() => {
+            window.open(
+              'https://www.linkedin.com/in/suraj-jaiswal-6a84011b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+              '_blank'
+            );
+          }}
+        >
           <LinkedInIcon className={`${scssObj.baseClass}__icons`} />
         </Button>
       </div>
