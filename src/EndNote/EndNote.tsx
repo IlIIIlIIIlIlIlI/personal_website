@@ -94,6 +94,17 @@ function EndNote() {
           Download My Resume
         </Button>
       </div>
+
+      <div className={`${scssObj.baseClass}__last-note`}>
+        <div className={`${scssObj.baseClass}__note`}>
+          Embracing growth, knowledge and progress
+        </div>
+        <div className={`${scssObj.baseClass}__note`}>each day</div>
+
+        <div className={`${scssObj.baseClass}__last-note-smaller-sceen`}>
+          Embracing growth, knowledge and progress each day
+        </div>
+      </div>
     </div>
   );
 }

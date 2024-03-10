@@ -95,7 +95,7 @@ $base-class: end-note;
   }
 
   &__resume {
-    margin: 20px 0px 100px;
+    margin: 20px 0px 20px;
   }
 
   &__resume-button {
@@ -115,6 +115,23 @@ $base-class: end-note;
 
   &__resume-button:hover &__whatsapp-icon {
     color: #141c3a !important;
+  }
+
+  &__last-note,
+  &__last-note-smaller-sceen {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 20px 0px 100px;
+  }
+
+  &__last-note-smaller-sceen {
+    display: none;
+    text-align: center;
+  }
+
+  &__note {
+    text-align: center;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -180,6 +197,23 @@ $base-class: end-note;
       border: 2px solid white !important;
 
       margin: 10px !important;
+    }
+
+    &__last-note {
+      width: calc(100vw - 80px);
+      font-size: 18px;
+      color: white;
+      margin: 20px 0px 100px;
+      text-align: center;
+    }
+
+    &__note {
+      display: none;
+    }
+
+    &__last-note-smaller-sceen {
+      display: block;
+      text-align: center;
     }
   }
 }
