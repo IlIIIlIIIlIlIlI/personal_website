@@ -108,8 +108,16 @@ $base-class: end-note;
     border: 2px solid #a4e8de !important;
   }
 
-  &__resume-button:hover {
+  &__resume-text {
+    text-decoration: none;
+    color: white !important;
+  }
+
+  &__resume-button:hover &__resume-text {
     color: #141c3a !important;
+  }
+
+  &__resume-button:hover {
     background-color: #a4e8de !important;
   }
 

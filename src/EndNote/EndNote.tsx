@@ -87,11 +87,14 @@ function EndNote() {
               className={`${scssObj.baseClass}__whatsapp-icon`}
             />
           }
-          onClick={() => {
-            // window.open('https://wa.me/+918805517049', '_blank');
-          }}
         >
-          Download My Resume
+          <a
+            href={'images/resume.pdf'}
+            download='suraj jaiswal full stack developer.pdf'
+            className={`${scssObj.baseClass}__resume-text`}
+          >
+            Download My Resume
+          </a>
         </Button>
       </div>
 
