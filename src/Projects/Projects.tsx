@@ -264,8 +264,8 @@ function Projects() {
             hoverContent={
               <div className={`${scssObj.baseClass}__on-hover`}>
                 <div className={`${scssObj.baseClass}__extra`}>
-                  Developed a mobile responsive website for efficient task
-                  management utilizing React, Redux, Formik and Material-UI
+                  Crafted my personal portfolio website leveraging React and
+                  Material-UI, ensuring sleek design and smooth navigation
                 </div>
                 <div>
                   <Button
