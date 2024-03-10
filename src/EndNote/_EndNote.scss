@@ -146,5 +146,19 @@ $base-class: end-note;
     &__connect-button-div {
       margin: 15px auto 0px !important;
     }
+
+    &__contact {
+      width: 64px !important;
+      height: 64px !important;
+
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+
+      border-radius: 50% !important;
+      border: 2px solid white !important;
+
+      margin: 10px !important;
+    }
   }
 }
