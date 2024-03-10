@@ -25,6 +25,9 @@ function EndNote() {
             endIcon={
               <WhatsAppIcon className={`${scssObj.baseClass}__whatsapp-icon`} />
             }
+            onClick={() => {
+              window.open('https://wa.me/+918805517049', '_blank');
+            }}
           >
             Let's Connect
           </Button>
