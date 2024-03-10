@@ -3,6 +3,7 @@ import ExperinceChart from './ExperinceChart';
 import Projects from './Projects';
 import Introduction from './Introduction';
 import Skills from './Skills';
+import EndNote from './EndNote';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <ExperinceChart /> */}
       <Projects />
       <ExperienceDropDown />
+      <EndNote />
     </div>
   );
 }
