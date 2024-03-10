@@ -288,7 +288,10 @@ function Projects() {
                   <Button
                     className={`${scssObj.baseClass}__button-website`}
                     onClick={() => {
-                      setOpen(true);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                      setTimeout(() => {
+                        setOpen(true);
+                      }, 1000);
                     }}
                   >
                     Visit Website {'>'}
