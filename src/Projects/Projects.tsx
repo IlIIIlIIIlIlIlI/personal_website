@@ -110,20 +110,19 @@ function Projects() {
         <div className={`${scssObj.baseClass}__box`}>
           <InteractiveCards
             backGroundColor='#F7F0E8'
-            backGroundImageLink='/images/sudoku.png'
-            backGroundColour='rgba(63, 58, 137, 0.85)'
+            backGroundImageLink='/images/api-sudoku.png'
+            backGroundColour='RGBA(35, 94, 54, 0.85)'
             nonHoverContent={
               <div className={`${scssObj.baseClass}__non-hover`}>
-                <div>Mobile Responsive</div>
-                <div>Sudoku Puzzle Website</div>
+                <div>RESTful Sudoku </div>
+                <div>Solution API</div>
               </div>
             }
             hoverContent={
               <div className={`${scssObj.baseClass}__on-hover`}>
                 <div className={`${scssObj.baseClass}__extra`}>
-                  Implemented a mobile responsive Sudoku web application with
-                  varying difficulty levels using React, Redux, Redux-Saga,
-                  Formik, Material-UI.
+                  Developed a RESTful API to provide both Sudoku Puzzle and its
+                  Solution, utilizing the Spring Boot, Java, Spring Web MVC.
                 </div>
                 <div>
                   <Button
@@ -131,7 +130,7 @@ function Projects() {
                     endIcon={<GitHubIcon style={{ color: 'white' }} />}
                     onClick={() => {
                       window.open(
-                        'https://github.com/IlIIIlIIIlIlIlI/sudoku-react-client/tree/sudoku-react-client-with-saga',
+                        'https://github.com/IlIIIlIIIlIlIlI/Sudoku-Puzzle-9x9-PreSolved',
                         '_blank'
                       );
                     }}
@@ -139,7 +138,7 @@ function Projects() {
                     Github
                   </Button>
 
-                  <Button
+                  {/* <Button
                     className={`${scssObj.baseClass}__button-website`}
                     onClick={() => {
                       window.open(
@@ -149,7 +148,7 @@ function Projects() {
                     }}
                   >
                     Visit Website {'>'}
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             }
